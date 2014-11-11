@@ -1,3 +1,4 @@
+name             "chef-davfsclient"
 maintainer       "Andrey Zherebchenko"
 maintainer_email "anzhe@opsway.com"
 license          "All rights reserved"
