@@ -56,7 +56,7 @@ use_locks       0
 # backup_dir      lost+found
 # cache_dir       /var/cache/davfs2 # system wide cache
 #                 ~/.davfs2/cache   # per user cache
-# cache_size      50                # MiByte
+cache_size      <%= node[:davfsclient][:cache_size]         # MiByte
 # table_size      1024
 # dir_refresh     60                # seconds
 # file_refresh    1                 # second
